@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "PersianSword";
+  src: local("PersianSword"),
+    url("./fonts/PersianSword.ttf") format("truetype");
+  font-weight: bold;
+}
