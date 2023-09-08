@@ -6,27 +6,36 @@ import Rifle from '../images/Rifle.png';
 import Blaster from '../images/Blaster.png';
 import VibroBlade from '../images/VibroBlade.png';
 import PloKoonSabre from '../images/PloKoonSabre.png';
+import Vambrance from '../images/Vambrance.png';
 
 
 const Weapons = () => {
     return (
         <div className='weaponShell'>
-            <h1>My Weapons of Choice</h1>
+            <h1 style={{ textShadow: '.1rem .1rem red'}}>Weapons of Choice</h1>
+            <p style={{ fontFamily: 'QuickerMachine', fontSize: '2rem'}}>My weapons have been modified for speed and silence. My rifle is a modified phase~pulse blaster rifle. My side arm is a dependable and quite lethal modified RSKF~44 heavy blaster. My lightsabre once belonged to the jedi master Plo Koon. It was given to me as payment for delivery in a rebel incursion with a little special help. My vambrance (one of several) boasts many of the traditional capabilities such as a flamethrower, 25~meter retractable fibre cord, and an energy shield projector. In addition to these standards I have added some extra touches like trackers (all sensory specific), whistle birds, repulsers, MM9 mini concussion rockets and tranquilizer/expolosive darts. </p>
             <Link className='homeLink' to='/'>Home</Link>
             <br /><br />
             <div className='weaponCase'  >
                 <div className='caseLeft'>
                 <br /><br />
                     <h2>Amban Sniper Rifle</h2>
-                    <Image src={Rifle} alt='...'/> 
+                    <Image className='weaponShelf' src={Rifle} alt='...'/> 
                 </div>
                 <div className='caseMid'>
                     <br /><br /><br />
-                    <h2>Modified IB Blaster</h2>
+                    <h2 style={{ marginLeft: '30%'}}>IB Blaster</h2>
                     <Image className='blaster' src={Blaster} alt='...'/> 
-                    <br /><br /><br /><br />
-                    <h2>Plo Koons Lightsaber</h2>
+                    <br /><br /><br />
+                <div style={{ marginLeft: '10%'}}>
+                    <h2 style={{ marginLeft: '30%'}}>Lightsaber</h2>
                     <Image className='sabre' src={PloKoonSabre} alt='...'/> 
+                </div>
+                <br /><br />
+                <div style={{ marginLeft: '10%'}}>
+                    <h2 style={{ marginLeft: '30%'}}>Vambrance</h2>
+                    <Image className='vambrance' src={Vambrance} alt='...'/> 
+                </div>
                 </div>
                 <div className='caseRight'>
                 <br /><br />

@@ -14,7 +14,8 @@ const Dashboard = (props) => {
             <MobileMenu />
             <div className='navBar'>  
                 <br/>
-                <h1>Specializing in acquisitions and removals</h1>
+                <h1 className= 'name'>Ers Q"Orr</h1>
+                <h1 style={{ textShadow: '.1rem .1rem red'}}>Specializing in acquisitions and removals</h1>
                 <br/><br/><br/>
                 <Image className='MythPic' src={Myth} alt='...'/>
                 <br/><br/><br/><br/><br/>
