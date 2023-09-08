@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+import './style.css';
 
 
 const MobileMenu = () => {
@@ -24,28 +25,32 @@ const MobileMenu = () => {
             <br />
             {menuOpen && (
                 <div className="menu-items">
-                    <Link to="about" smooth={true} duration={500}>
-                        About Me
+                    <Link className='menu-links' to="/aboutme" smooth='true' duration={500}>
+                        Lineage
                     </Link>
                     <br /><br />
-                    <Link to="pricing" smooth={true} duration={500}>
+                    <Link className='menu-links' to="/darknaught" smooth='true' duration={500}>
+                        The Dark Naught
+                    </Link>
+                    <br /><br />
+                    <Link className='menu-links' to="/weapons" smooth='true' duration={500}>
+                        Weapons
+                    </Link>
+                    <br /><br />
+                    <Link className='menu-links' to="/droids" smooth='true' duration={500}>
+                        Droids
+                    </Link>
+                    <br /><br />
+                    <Link className='menu-links' to="/affiliations" smooth='true' duration={500}>
+                        Affiliations
+                    </Link>
+                    <br /><br />
+                    <Link className='menu-links' to="/bounties" smooth='true' duration={500}>
+                        Bounties
+                    </Link>
+                    <br /><br />
+                    <Link className='menu-links' to="/services" smooth='true' duration={500}>
                         Services
-                    </Link>
-                    <br /><br />
-                    <Link to="specialties" smooth={true} duration={500}>
-                        Specialties
-                    </Link>
-                    <br /><br />
-                    <Link to="promotions" smooth={true} duration={500}>
-                        Promotions
-                    </Link>
-                    <br /><br />
-                    <Link to="giftCards" smooth={true} duration={500}>
-                        Gift Cards
-                    </Link>
-                    <br /><br />
-                    <Link to="contact" smooth={true} duration={500}>
-                        Contact
                     </Link>
                 </div>
             )}

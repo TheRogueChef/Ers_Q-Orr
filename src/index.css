@@ -18,3 +18,10 @@ code {
     url("./fonts/PersianSword.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "QuickerMachine";
+  src: local("QuickerMachine"),
+    url("./fonts/QuickerMachine.ttf") format("truetype");
+  font-weight: bold;
+}

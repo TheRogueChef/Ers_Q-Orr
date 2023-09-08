@@ -2,6 +2,11 @@
     font-family: PersianSword;
 }
 
+.homeLink {
+color: red;
+
+}
+
 /*dashboard*/
 .dashShell {
     display: flex;
@@ -23,17 +28,23 @@
     text-decoration: none;
     font-size: 1.5rem;
     color: white;
+    font-style: italic;
 }
 
 .ErsFullPic {
     width: 70%;
 }
 
+.MythPic {
+    border: red .25rem solid;
+}
+
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
-    background-color: white;
+    top: 100%; 
+    background-color: black;
+    border: .25rem solid white;
 
 }
 
@@ -46,15 +57,16 @@
     /* This is important for positioning the dropdown menu */
     display: inline-block;
     /* Ensures the link and menu are inline */
+    
 }
 
 /* You may want to add additional styling for the link itself */
 .dropdown-link a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5rem;
     font-family: PersianSword;
-    color: white;
+   background-color: transparent;
 }
 
 /* Additional styling for when the link is hovered */
@@ -88,12 +100,17 @@
 
 
 @media (max-width: 768px) {
-    .dashList {
+    .navBar {
         display: none;
     }
 }
 
 .menu-items {
+    color: white;
+}
+
+.menu-links {
+    text-decoration: none;
     color: white;
 }
 
@@ -194,12 +211,10 @@
 .caseLeft, .caseRight {
     width: 30%;
 
-
 }
 
 .caseMid {
-    width: 40%;
-    
+    width: 40%; 
 }
 
 .blaster {
@@ -222,7 +237,6 @@
     border: 1rem black solid;
     background-image: url(../images/MetalBack.jpg);
     background-size: cover;
-    
 }
 
 .DNCase {
@@ -236,17 +250,34 @@
 .shipPics {
     width: 20rem;
     height: 20rem;
- 
 }
 
 .shipPics2 {
     width: 35rem;
     height: 20rem;
- 
 }
 
 .shipPics3 {
     width: 40rem;
     height: 25rem;
-    
+}
+
+/*Lineage*/
+.AMShell {
+    border: 1rem black solid;
+    background-image: url(../images/SWLandscape.jpg);
+    font-family: QuickerMachine;
+    background-size: cover;
+    color: white;
+    font-size: 3rem;
+}
+
+.AMLeft {
+    font-size: 2rem;
+    color: black;
+}
+
+.AMPic {
+    width: 40rem;
+    height: 55rem;
 }
