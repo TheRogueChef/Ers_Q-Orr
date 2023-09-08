@@ -2,6 +2,7 @@ import React from 'react';
 import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
+import FullScreenImage from '../components/FullScreenImage';
 import DNCockpit from '../images/DNCockpit.PNG'
 import Schem1 from '../images/Schematics1.JPG'
 import Schem2 from '../images/Schematics2.JPG'
@@ -19,51 +20,69 @@ import DK5 from '../images/DK5.PNG'
 const DarkNaught = () => {
     return (
         <div className='DNShell'  >
-                <h1 style={{ textShadow: '.1rem .1rem red'}}>The Dark Naught</h1>
-                <div className='DNDesc'>
-                    <div>
-                        <p style={{ textDecoration: 'underline'}}>Modifications</p>
-                        <ul>
-                            <li>Solo pilot capable</li>
-                            <li>Cloaking ( Imperial format )</li>
-                            <li>Reinforced hull - ramming capabilities</li>
-                            <li>4 hidden controlled environments</li>
-                            <li>2 holding cells (energy shield)</li>
-                        </ul>
-                    </div>
-                    <div>
-                    <p style={{ textDecoration: 'underline'}}>Aresnal</p>
+            <h1 style={{ textShadow: '.1rem .1rem red' }}>The Dark Naught</h1>
+            <div className='DNDesc'>
+                <div>
+                    <p style={{ textDecoration: 'underline' }}>Modifications</p>
                     <ul>
-                            <li>Double laser turrets (dorsal/ventral)</li>
-                            <li>Medium ion cannon</li>
-                            <li>Plasma charges</li>
-                            <li>Seismic charges</li>
-                            <li>Tracking darts</li>
-                        </ul>
-                    </div>
+                        <li>Solo pilot capable</li>
+                        <li>Cloaking ( Imperial format )</li>
+                        <li>Reinforced hull - ramming capabilities</li>
+                        <li>4 hidden controlled environments</li>
+                        <li>2 holding cells (energy shield)</li>
+                    </ul>
                 </div>
+                <div>
+                    <p style={{ textDecoration: 'underline' }}>Aresnal</p>
+                    <ul>
+                        <li>Double laser turrets (dorsal/ventral)</li>
+                        <li>Medium ion cannon</li>
+                        <li>Plasma charges</li>
+                        <li>Seismic charges</li>
+                        <li>Tracking darts</li>
+                    </ul>
+                </div>
+            </div>
             <Link className='homeLink' to='/'>Home</Link>
             <div className='DNCase'>
                 <div >
-                    <Image className='shipPics2' src={Schem1} alt='...' />
+                    <FullScreenImage className='shipPics2' imageUrl={Schem1}>
+                        <Image src={Schem1} alt='...' />
+                    </FullScreenImage>
                     <br /><br />
-                    <Image className='shipPics2' src={DN1} alt='...' />
+                    <FullScreenImage className='shipPics2' imageUrl={DN1}>
+                        <Image src={DN1} alt='...' />
+                    </FullScreenImage>
                     <br /><br />
-                    <Image className='shipPics2' src={DN4} alt='...' />
+                    <FullScreenImage className='shipPics2' imageUrl={DN4}>
+                        <Image src={DN4} alt='...' />
+                    </FullScreenImage>
                 </div>
                 <div>
-                    <Image className='shipPics4' src={DK5} alt='...' />
+                    <FullScreenImage className='shipPics4' imageUrl={DK5}>
+                        <Image src={DK5} alt='...' />
+                    </FullScreenImage>
                     <br /><br />
-                    <Image className='shipPics' src={DN3} alt='...' />
+                    <FullScreenImage className='shipPics' imageUrl={DN3}>
+                        <Image src={DN3} alt='...' />
+                    </FullScreenImage>
                     <br /><br />
-                    <Image className='shipPics' src={DNCockpit} alt='...' />
+                    <FullScreenImage className='shipPics' imageUrl={DNCockpit}>
+                        <Image src={DNCockpit} alt='...' />
+                    </FullScreenImage>
                 </div>
                 <div>
-                    <Image className='shipPics2' src={Schem2} alt='...' />
+                    <FullScreenImage className='shipPics2' imageUrl={Schem2}>
+                        <Image src={Schem2} alt='...' />
+                    </FullScreenImage>
                     <br /><br />
-                    <Image className='shipPics2' src={DN2} alt='...' />
+                    <FullScreenImage className='shipPics2' imageUrl={DN2}>
+                        <Image src={DN2} alt='...' />
+                    </FullScreenImage>
                     <br /><br />
-                    <Image className='shipPics3' src={Schem3} alt='...' />
+                    <FullScreenImage className='shipPics3' imageUrl={Schem3}>
+                        <Image src={Schem3} alt='...' />
+                    </FullScreenImage>
                 </div>
             </div>
         </div>

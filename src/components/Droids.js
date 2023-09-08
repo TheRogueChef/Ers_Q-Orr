@@ -2,6 +2,7 @@ import React from 'react';
 import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
+import FullScreenImage from '../components/FullScreenImage';
 import TAD from '../images/aqua_droid.jpg';
 import R4 from '../images/r4_i9.jpg';
 import KX from '../images/kx_series.jpg';
@@ -13,7 +14,6 @@ const Droids = () => {
     return (
         <div className='droidShell'  >
             <h1 style={{ fontFamily: 'PersianSword'}}>Droids</h1>
-            
              <Link className='homeLink2' to='/'>Home</Link>
              <br /><br /><br />
             <div className='droidText' >
@@ -22,7 +22,9 @@ const Droids = () => {
             <br />
             <div>
                 <div className='droidBox'>
-                    <Image className='shipPics2' src={TAD} alt='...' />
+                <FullScreenImage className='shipPics2' imageUrl={TAD}>
+                    <Image src={TAD} alt='...' />
+                    </FullScreenImage>
                     <div>
                         <p>T.A.D.</p>
                         <p>( TU Aqua Droid )</p>
@@ -31,7 +33,9 @@ const Droids = () => {
                 </div>
                 <br />
                 <div className='droidBox'>
-                    <Image className='shipPics2' src={R4} alt='...' />
+                <FullScreenImage className='shipPics2' imageUrl={R4}>
+                    <Image src={R4} alt='...' />
+                    </FullScreenImage>
                     <div>
                         <p>R4</p>
                         <p>( R4~I9 Agromech droid )</p>
@@ -40,7 +44,9 @@ const Droids = () => {
                 </div>
                 <br />
                 <div className='droidBox'>
-                    <Image className='shipPics2' src={KX} alt='...' />
+                <FullScreenImage className='shipPics2' imageUrl={KX}>
+                    <Image src={KX} alt='...' />
+                    </FullScreenImage>
                     <div>
                         <p>K2</p>
                         <p>( KX series K~2SO Enforcer )</p>
@@ -49,7 +55,9 @@ const Droids = () => {
                 </div>
                 <br />
                 <div className='droidBox'>
-                    <Image className='shipPics2' src={Oct} alt='...' />
+                <FullScreenImage className='shipPics2' imageUrl={Oct}>
+                    <Image src={Oct} alt='...' />
+                    </FullScreenImage>
                     <div>
                         <p>Rocco</p>
                         <p>( Octuptarra combat tri~droid )</p>
