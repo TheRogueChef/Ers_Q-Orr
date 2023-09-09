@@ -27,13 +27,13 @@ const DarkNaught = () => {
                     <ul>
                         <li>Solo pilot capable</li>
                         <li>Cloaking ( Imperial format )</li>
-                        <li>Reinforced hull - ramming capabilities</li>
+                        <li>Reinforced hull ~ ramming capabilities</li>
                         <li>4 hidden controlled environments</li>
                         <li>2 holding cells (energy shield)</li>
                     </ul>
                 </div>
                 <div>
-                    <p style={{ textDecoration: 'underline' }}>Aresnal</p>
+                    <p style={{ textDecoration: 'underline' }}>Arsenal</p>
                     <ul>
                         <li>Double laser turrets (dorsal/ventral)</li>
                         <li>Medium ion cannon</li>

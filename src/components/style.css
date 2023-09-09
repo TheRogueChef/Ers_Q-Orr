@@ -357,8 +357,8 @@ color: red;
     margin: 2%;
     border: .25rem solid black;
     padding: 2%;
-    background-color: rgba(0, 0, 0, .5);
-    text-shadow: .1rem .1rem red;
+    background-color: rgba(0, 0, 0, .7);
+    text-shadow: .05rem .05rem red;
 }
 
 .AMPic {
@@ -403,3 +403,31 @@ color: red;
 .droidBlurb {
     padding: 2%;
 }
+
+/*affiliations*/
+.affShell {
+    position: static;
+    border: 1rem black solid;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/LastSupper.jpg);
+    font-family: QuickerMachine;
+    background-size: 100%;
+    color: ghostwhite;
+    font-size: 2.1rem;
+    padding: 2%;
+}
+
+.affPic {
+    width: 20rem;
+    height: 35rem;
+}
+
+.affPic1 {
+    width: 30rem;
+    height: 30rem;
+}
+
+.affPic2 {
+    width: 28rem;
+    height: 30rem;
+}
+
