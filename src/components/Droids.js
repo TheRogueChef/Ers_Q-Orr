@@ -39,7 +39,7 @@ const Droids = () => {
                     <div>
                         <p>R4</p>
                         <p>( R4~I9 Agromech droid )</p>
-                        <p className='droidBlurb'>R4 was a gift from a farmer on Tatooine. He was very good at communicating with other computers and being that he was quite manipulative he was able to convince a lot of systems to do whatever we needed. As far as his personality went, he was an asshole. He was always very rude and always had to have the last word. I have always appreciated his ability but I finally had to shut him down due to him harassing just about anyone who boarded.</p>
+                        <p className='droidBlurb'>R4 was a gift from a farmer on Tatooine. He was very good at communicating with other computers and being that he was quite manipulative he was able to convince a lot of systems to do whatever we needed. As far as his personality went, he was an asshole. He was always very rude and always had to have the last word. I have always appreciated his ability but I finally had to shut him down due to him harassing anyone who boarded.</p>
                     </div>
                 </div>
                 <br />

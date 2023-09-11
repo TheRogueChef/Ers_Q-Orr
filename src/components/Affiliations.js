@@ -32,7 +32,7 @@ const Affiliations = () => {
                     <div>
                         <p>Bossk</p>
                         <p>Bounty Hunter</p>
-                        <p className='droidBlurb'>TAD is one of my favorites. These battle droids are easy to program and worthy in battle. They dont have a much of a personality and can be a bit repetitive. But, he is still with me and although he has no sense of humor, he is someone I enjoy having around even if he is terrible with ship maintenance.</p>
+                        <p className='droidBlurb'>Bossk is very effective with his abilities. Our time together was one of requirement, definitely not choice. I was in Batuu for a standard retrieval, as apparently was Bossk. Unfortunately for Bossk and myself the bounty was expecting us and after several challenging days spent trapped in a collapsed rancor den we were successful in our escape. I ended up collecting the bounty, which seemingly left Bossk unreasonably pissy. I have great respect for Bossk and his scorecard.</p>
                         </div>
 
                     
@@ -45,7 +45,7 @@ const Affiliations = () => {
                     <div>
                         <p>Leia Organa</p>
                         <p>Princess/Rebel Leader</p>
-                        <p className='droidBlurb'>Rocco was my first droid. He came with The Dark Naught and was excellent with all ship maintenance and, well pretty much anything I needed. He was much faster after a few modifications and his voice modulator was set up to be that of a kima, which worked out well in so many ways. Losing him was tough. </p>
+                        <p className='droidBlurb'>Leia and I met at chance meeting in her early years on Alderaan. I was still flying with my father and there was a pick up that went long. During our layover I met Leia and two of her friends out carousing where I was sure a princess should not be. That was the beauty of Leia, she was much more than one would expect. She was fearless and at times fearsome. Our time together was very memorable and I will always miss her.</p>
                     </div>
                 </div>
                 <br />
@@ -56,7 +56,7 @@ const Affiliations = () => {
                     <div>
                         <p>Boba Fett</p>
                         <p>Bounty Hunter</p>
-                        <p className='droidBlurb'>R4 was a gift from a farmer on Tatooine. He was very good at communicating with other computers and being that he was quite manipulative he was able to convince a lot of systems to do whatever we needed. As far as his personality went, he was an asshole. He was always very rude and always had to have the last word. I have always appreciated his ability but I finally had to shut him down due to him harassing just about anyone who boarded.</p>
+                        <p className='droidBlurb'>Boba Fett and I traveled similar lives. Our interactions were many and always amiable. I respect his skills and have always been aware of his standings in the BH community. His rise to fame while working closely with the Empire, which I know can be quite lucrative, did seem to kind of propel his universally known infamy quickly. I always had a bit of issue with the armor he wore, but lineage and property can be powerful. I'm sure we will cross paths again.</p>
                     </div>
                 </div>
                 <br />
