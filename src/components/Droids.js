@@ -13,7 +13,7 @@ import Oct from '../images/octuptarra.jpg';
 const Droids = () => {
     return (
         <div className='droidShell'  >
-            <h1 style={{ fontFamily: 'PersianSword'}}>Droids</h1>
+            <h1 className='droidText' style={{ fontFamily: 'PersianSword'}}>Droids</h1>
              <Link className='homeLink2' to='/'>Home</Link>
              <br /><br /><br />
             <div className='droidText' >

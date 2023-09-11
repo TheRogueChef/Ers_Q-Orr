@@ -408,7 +408,7 @@ color: red;
 .affShell {
     position: static;
     border: 1rem black solid;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/LastSupper.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/coruscant-night.jpg);
     font-family: QuickerMachine;
     background-size: 100%;
     color: ghostwhite;
@@ -421,13 +421,21 @@ color: red;
     height: 35rem;
 }
 
-.affPic1 {
-    width: 30rem;
-    height: 30rem;
-}
-
 .affPic2 {
     width: 28rem;
     height: 30rem;
 }
 
+/*bounties*/
+.BShell {
+    border: 1rem black solid;
+    background-image: url(../images/burning.png);
+    background-size: cover;
+}
+
+.poster {
+    border: .25rem solid black;
+    box-shadow: .1rem .1rem red;
+    width: 30rem;
+    height: 40rem;
+}

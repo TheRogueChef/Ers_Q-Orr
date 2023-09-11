@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     return (
         <div className=''  >
+            <h1>Services</h1>
             <div >
                 <Link to='/acquisitions'>Acquisitions</Link>
                 <br /><br />
