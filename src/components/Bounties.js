@@ -29,7 +29,7 @@ const Bounties = () => {
         <div className='BShell'  >
             <h1 style={{ color: 'ghostWhite', textShadow: '.1rem .1rem red' }}>Bounties</h1>
            
-            <Link className='homeLink' to='/'>Home</Link>
+            <Link className='homeLink2' to='/'>Home</Link>
             <div className='DNCase'>
                 <div >
                     <FullScreenImage className='poster' imageUrl={asta}>

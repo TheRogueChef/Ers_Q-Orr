@@ -43,7 +43,7 @@ const DarkNaught = () => {
                     </ul>
                 </div>
             </div>
-            <Link className='homeLink' to='/'>Home</Link>
+            <Link className='shellHomeLink' to='/'>Home</Link>
             <div className='DNCase'>
                 <div >
                     <FullScreenImage className='shipPics2' imageUrl={Schem1}>

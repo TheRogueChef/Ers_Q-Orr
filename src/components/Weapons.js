@@ -15,7 +15,7 @@ const Weapons = () => {
         <div className='weaponShell'>
             <h1 style={{ textShadow: '.1rem .1rem red' }}>Weapons of Choice</h1>
             <p style={{ fontFamily: 'QuickerMachine', fontSize: '2rem' }}>My weapons have been modified for speed and silence. My rifle is a modified phase~pulse blaster rifle. My side arm is a dependable and quite lethal modified RSKF~44 heavy blaster. My lightsabre once belonged to the jedi master Plo Koon. It was given to me as payment for delivery in a rebel incursion with a little special help. My vambrance (one of several) boasts many of the traditional capabilities such as a flamethrower, 25~meter retractable fibre cord, and an energy shield projector. In addition to these standards I have added some extra touches like trackers (all sensory specific), whistle birds, repulsers, MM9 mini concussion rockets and tranquilizer/expolosive darts. </p>
-            <Link className='homeLink' to='/'>Home</Link>
+            <Link className='shellHomeLink' to='/'>Home</Link>
             <br /><br />
             <div className='weaponCase'  >
                 <div className='caseLeft'>
