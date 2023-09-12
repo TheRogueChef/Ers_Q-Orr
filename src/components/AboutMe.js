@@ -23,7 +23,7 @@ const AboutMe = () => {
                 <div className='AMRight'>
                   <Image className='AMPic' src={Ers2} alt='...'/>
                 </div>
-                  
+              
             </div>
         </div>
     )

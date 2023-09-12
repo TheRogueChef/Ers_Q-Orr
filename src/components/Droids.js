@@ -3,6 +3,7 @@ import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import FullScreenImage from '../components/FullScreenImage';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import TAD from '../images/aqua_droid.jpg';
 import R4 from '../images/r4_i9.jpg';
 import KX from '../images/kx_series.jpg';
@@ -64,6 +65,7 @@ const Droids = () => {
                         <p className='droidBlurb'>Rocco was my first droid. He came with The Dark Naught and was excellent with all ship maintenance and, well pretty much anything I needed. He was much faster after a few modifications and his voice modulator was set up to be that of a kima, which worked out well in so many ways. Losing him was tough. </p>
                     </div>
                 </div>
+                <ScrollToTopButton />
             </div>
         </div>
     )

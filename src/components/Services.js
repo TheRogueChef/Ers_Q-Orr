@@ -18,9 +18,7 @@ const Services = () => {
             <br /><br />
             <div className='servBox' >
                 <Link className='servLink' to='/acquisitions'>Acquisitions</Link>
-                <hr />
                 <Link className='servLink' to='/deliveries'>Deliveries</Link>
-                <hr />
                 <Link className='servLink' to='/removals'>Removals</Link>
             </div>
             

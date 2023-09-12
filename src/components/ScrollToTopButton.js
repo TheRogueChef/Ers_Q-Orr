@@ -16,8 +16,11 @@ const ScrollToTopButton = () => {
     };
 
     const scrollToTop = () => {
-        scroll.scrollToTop();
+        scroll.scrollToTop({
+            duration: 200,
+        });
     };
+    
 
     useEffect(() => {
         window.addEventListener('scroll', toggleVisibility);

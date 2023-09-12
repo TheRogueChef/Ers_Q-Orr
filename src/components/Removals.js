@@ -16,7 +16,7 @@ const Removals = () => {
             <br />
             <div className='buttons'>
                 <Link className='shellHomeLink' to='/'>Home</Link>
-                <Link className='shellHomeLink' to='/services'>Back</Link>
+                <Link className='shellHomeLink' to='/services'>Services</Link>
             </div>
             <div className='shellBox'>
                 <div>

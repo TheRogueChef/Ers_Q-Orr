@@ -3,6 +3,7 @@ import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import FullScreenImage from '../components/FullScreenImage';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import Darth from '../images/DarthBW.png';
 import BobaBW from '../images/BobaBW.png';
 import Han from '../images/HanBW.png';
@@ -91,7 +92,7 @@ const Affiliations = () => {
                     </div>
                 </div>
              
-
+                <ScrollToTopButton />
             </div>
         </div>
     )

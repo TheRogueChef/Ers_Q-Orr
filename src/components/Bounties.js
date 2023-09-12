@@ -3,6 +3,7 @@ import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import FullScreenImage from '../components/FullScreenImage';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import asta from '../images/bounties/bounty_asta.png'
 import cal from '../images/bounties/bounty_cal.png'
 import chagrav from '../images/bounties/bounty_chagrav.jpg'
@@ -94,6 +95,7 @@ const Bounties = () => {
                         <Image src={zoya} alt='...' />
                     </FullScreenImage>
                 </div>
+                <ScrollToTopButton />
             </div>
         </div>
     )

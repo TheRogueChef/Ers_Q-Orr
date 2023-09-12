@@ -3,6 +3,7 @@ import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import FullScreenImage from '../components/FullScreenImage';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import Rifle from '../images/Rifle.png';
 import Blaster from '../images/Blaster.png';
 import VibroBlade from '../images/VibroBlade.png';
@@ -53,6 +54,7 @@ const Weapons = () => {
                         <Image src={VibroBlade} alt='...' />
                     </FullScreenImage>
                 </div>
+                <ScrollToTopButton />
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import '../components/style.css';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import FullScreenImage from '../components/FullScreenImage';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import DNCockpit from '../images/DNCockpit.PNG'
 import Schem1 from '../images/Schematics1.JPG'
 import Schem2 from '../images/Schematics2.JPG'
@@ -84,6 +85,7 @@ const DarkNaught = () => {
                         <Image src={Schem3} alt='...' />
                     </FullScreenImage>
                 </div>
+                <ScrollToTopButton />
             </div>
         </div>
     )

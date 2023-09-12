@@ -6,6 +6,7 @@ import Myth from '../images/Mythosaur.jpg';
 import { Link } from 'react-router-dom';
 import MobileMenu from './MobileMenu';
 import DropdownLink from './DropDownLink';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 const Dashboard = (props) => {
 
@@ -33,6 +34,7 @@ const Dashboard = (props) => {
                 <br/><br/><br/><br/><br/>
                 <DropdownLink />
                 <br/><br/><br/><br/><br/>
+                <ScrollToTopButton />
             </div>
             <div className='ErsFullPic'>
                 <Image src={Ers} alt='...'/> 
