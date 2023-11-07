@@ -139,18 +139,60 @@
 
 
 @media (max-width: 768px) {
-    .navBar {
+
+    .navBar,
+    .AMRight {
         display: none;
     }
+
+    .dashShell {
+        background-image: url(../images/JabbaBack.jpg);
+        background-size: cover;
+        width: 82vw;
+        height: 90vh;
+        border: 1rem groove black;
+    }
+
+    .DNShell {
+        width: max-content;
+        height: auto;
+    }
+
+    .bar {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .shipPics2 {
+        width: 10%;
+    }
+
+    img {
+        width: 110%;
+        height: auto;
+        margin-left: -40%;
+        margin-top: 25%;
+    }
+
+    .DNCase, .weaponCase {
+        display: inline-block !important;
+        border: none !important;
+        margin-left: 20%;
+        margin-top: 1%;
+        padding-top: 1%;
+    }
+
 }
 
 .menu-items {
-    color: white;
+    color: black;
 }
 
 .menu-links {
     text-decoration: none;
-    color: white;
+    color: red;
+    font-size: .5rem;
+    text-shadow: .05rem .05rem black;
 }
 
 
@@ -163,7 +205,8 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: white;
+    color: black;
+    font-size: 1rem;
 }
 
 .menu-icon {
@@ -317,7 +360,15 @@
     display: flex;
     justify-content: space-evenly;
     text-shadow: .02rem .1rem red;
+}
 
+.DKList {
+    margin-left: -15%;
+}
+
+.bar {
+    margin-right: -10%;
+    margin-left: -10%;
 }
 
 .shipPics,

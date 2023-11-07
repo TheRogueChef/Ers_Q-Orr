@@ -25,22 +25,23 @@ const DarkNaught = () => {
             <div className='DNDesc'>
                 <div>
                     <p style={{ textDecoration: 'underline' }}>Modifications</p>
-                    <ul>
-                        <li>Solo pilot capable</li>
-                        <li>Cloaking ( Imperial format )</li>
-                        <li>Reinforced hull ~ ramming capabilities</li>
-                        <li>4 hidden controlled environments</li>
-                        <li>2 holding cells (energy shield)</li>
+                    <ul className='DKList'>
+                        <ol>Solo pilot capable</ol>
+                        <ol>Cloaking ( Imperial format )</ol>
+                        <ol>Reinforced hull ~ ramming capabilities</ol>
+                        <ol>4 hidden controlled environments</ol>
+                        <ol>2 holding cells (energy shield)</ol>
                     </ul>
                 </div>
+                <hr className='bar'/>
                 <div>
                     <p style={{ textDecoration: 'underline' }}>Arsenal</p>
-                    <ul>
-                        <li>Double laser turrets (dorsal/ventral)</li>
-                        <li>Medium ion cannon</li>
-                        <li>Plasma charges</li>
-                        <li>Seismic charges</li>
-                        <li>Tracking darts</li>
+                    <ul className='DKList'>
+                        <ol>Double laser turrets (dorsal/ventral)</ol>
+                        <ol>Medium ion cannon</ol>
+                        <ol>Plasma charges</ol>
+                        <ol>Seismic charges</ol>
+                        <ol>Tracking darts</ol>
                     </ul>
                 </div>
             </div>
